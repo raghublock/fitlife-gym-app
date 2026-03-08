@@ -16,7 +16,7 @@ function PlanPurchase() {
     start_date: new Date().toISOString().split('T')[0] // Default aaj ki date
   });
 
-  const API_URL = "https://library-api.raghuveerbhati525.workers.dev";
+  const API_URL = config.apiUrl;
   const token = localStorage.getItem('adminToken');
 
   const fetchData = async () => {
