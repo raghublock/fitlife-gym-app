@@ -16,7 +16,7 @@ function Dashboard() {
   const [editingId, setEditingId] = useState(null);
 
   const navigate = useNavigate();
-  const API_URL = "https://library-api.raghuveerbhati525.workers.dev";
+  const API_URL = "https://gym-api.raghuveerbhati525.workers.dev/";
   const token = localStorage.getItem('adminToken');
   const adminName = localStorage.getItem('adminName');
 
