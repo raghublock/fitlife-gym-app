@@ -20,7 +20,7 @@ function FeesDashboard() {
     status: 'Paid' 
   });
 
-  const API_URL = "https://library-api.raghuveerbhati525.workers.dev";
+  const API_URL = config.apiUrl;
   const token = localStorage.getItem('adminToken');
 
   // 🔄 Data Fetching Function (Hook hata kar yahin daal diya taaki crash na ho)
