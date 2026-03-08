@@ -9,7 +9,7 @@ function StudentProfile() {
   const [student, setStudent] = useState(null);
   const [paymentHistory, setPaymentHistory] = useState([]);
   
-  const API_URL = "https://library-api.raghuveerbhati525.workers.dev";
+  const API_URL = config.apiUrl;
   const token = localStorage.getItem('adminToken');
 
   useEffect(() => {
