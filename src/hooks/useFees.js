@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 
 export const useFees = () => {
   const [feesHistory, setFeesHistory] = useState([]);
-  const API_URL = "https://library-api.raghuveerbhati525.workers.dev";
+  const API_URL = config.apiUrl;
   const token = localStorage.getItem('adminToken');
 
   // Callback hook taaki baar-baar function re-render na ho
