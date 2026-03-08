@@ -12,7 +12,7 @@ function Analytics() {
   const [customStats, setCustomStats] = useState(null);
 
   const navigate = useNavigate();
-  const API_URL = "https://library-api.raghuveerbhati525.workers.dev";
+  const API_URL = config.apiUrl;
   const token = localStorage.getItem('adminToken');
 
   useEffect(() => {
